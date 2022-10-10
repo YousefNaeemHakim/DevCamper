@@ -1,0 +1,29 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YousefNaeemHakim/DevCamper.git"
+  },
+  "author": "Yousef Naeem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YousefNaeemHakim/DevCamper/issues"
+  },
+  "homepage": "https://github.com/YousefNaeemHakim/DevCamper#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
